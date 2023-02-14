@@ -1,0 +1,50 @@
+{
+    "lang": "en",
+    "short_name": "ALLIED INFOSOFT",
+    "name": "ALLIED INFOSOFT",
+    "description": "Bringing Your Vision to Life with Our IT Service and Design Studio.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+    "icons": [
+        {
+            "src": "http://127.0.0.11:5500/Image/Allie.png",
+            "type": "image/png",
+            "sizes": "48x48",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "http://127.0.0.11:5500/Image/Allie.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "http://127.0.0.11:5500/Image/Allie.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "http://127.0.0.11:5500/Image/Allie.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "http://127.0.0.11:5500/Image/Allie.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "http://127.0.0.11:5500/Image/Allie.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "start_url": "http://127.0.0.11:5500/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#F7F8F9",
+    "theme_color": "#4A90E2",
+    "orientation": "portrait"
+}
