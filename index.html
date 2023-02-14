@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- bootstrap icon cdn -->
     <!-- css link -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- css link -->
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Link Swiper's CSS -->
     <title>Allied Infosoft</title>
-
 </head>
 
 <body>
@@ -90,8 +89,8 @@
             </div>
         </div>
         <div class=" p-0 p-sm-0 p-lg-4 p-xl-4">
-            <img src="/Image/Sample-video.gif" alt="This is an animated gif image, but it does not move"
-                class="img-fluid rounded-3 p-lg-5" />
+            <img src="Image/Sample-video.gif" alt="This is an animated gif image, but it does not move"
+                class="img-fluid rounded-3 p-lg-5 NO-CACHE" />
         </div>
     </div>
     <!-- hero section -->
@@ -156,7 +155,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-0 offset-sm-0 offset-lg-1 pt-3 pt-sm-3 pt-lg-5">
                 <div>
-                    <img src="/Image/project_12.gif" alt="" class=" " width="100%">
+                    <img src="Image/project_12.gif" alt="" class=" " width="100%">
                 </div>
             </div>
         </div>
@@ -172,7 +171,7 @@
                             around it.</p>
                     </div>
                     <div class="">
-                        <img src="/Image/image_49.png" class="card-img-bottom" alt="...">
+                        <img src="Image/image_49.png" class="card-img-bottom" alt="...">
                     </div>
 
                 </div>
@@ -187,7 +186,7 @@
                             around it.</p>
                     </div>
                     <div class="">
-                        <img src="/Image/pngegg.png" class="card-img-bottom " alt="...">
+                        <img src="Image/pngegg.png" class="card-img-bottom " alt="...">
                     </div>
                 </div>
             </div>
@@ -201,7 +200,7 @@
                             around it.</p>
                     </div>
                     <div>
-                        <img src="/Image/image_51.png" class="card-img-bottom" alt="...">
+                        <img src="Image/image_51.png" class="card-img-bottom" alt="...">
                     </div>
                 </div>
             </div>
@@ -254,7 +253,7 @@
     <!-- technology used -->
 
     <!-- testimonial -->
-    <div class="" style="background-image: url('/Image/image-52.png');background-position: center;
+    <div class="" style="background-image: url('Image/image-52.png');background-position: center;
     background-repeat: no-repeat;background-size: cover;">
         <div class="container">
             <div>
@@ -319,7 +318,7 @@
                 </div>
                 <div class="swiper-pagination d-none"></div>
             </div>
-            
+
         </div>
     </div>
 
@@ -476,6 +475,10 @@
                     spaceBetween: 10
                 },
             }
+        });
+
+        $(document).ready(function () {
+            $('.NO-CACHE').attr('src', function () { return $(this).attr('src') + "?a=" + Math.random() });
         });
     </script>
 </body>
